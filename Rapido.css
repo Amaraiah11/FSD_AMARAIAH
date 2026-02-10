@@ -1,0 +1,62 @@
+.i1{
+    background-color: whitesmoke;
+    padding: 10px;
+    
+}
+.i1,ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    width: 99%;
+}
+ul{
+    margin-left: 65%;
+
+}
+h1{
+    margin-left: 140px;
+    background-color: rgb(255,204,0);
+    border-radius: 29px;
+    padding: 10px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    background: url(./r2.webp);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.i2{
+    
+    margin-left: 43%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 7px;
+    height: 50px;
+}
+.i3{
+    
+    margin-left: 43%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    padding-top: 15px;
+     border-radius: 7px;
+      height: 50px;
+}
+button{
+    text-align: center;
+    height: 50px;
+    margin-left: 43%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    padding-top: 10px;
+     border-radius: 7px;
+     background-color: rgb(255,204,0);
+}
