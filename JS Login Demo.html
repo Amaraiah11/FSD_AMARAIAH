@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>JS Login Demo</title>
+
+    <style>
+        body{
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box{
+            background-color: #ffffff;
+            width: 420px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        h1{
+            color: #333366;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+
+        label{
+            font-size: 18px;
+            color: #555;
+        }
+
+        input{
+            width: 90%;
+            height: 35px;
+            margin-top: 8px;
+            margin-bottom: 18px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            padding-left: 12px;
+            outline: none;
+        }
+
+        input:focus{
+            border-color: #4facfe;
+            box-shadow: 0 0 5px #4facfe;
+        }
+
+        button{
+            width: 120px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            background-color: #333366;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background-color: #00f2fe;
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        p{
+            margin-top: 25px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Login Validation</h1>
+
+        <label>User ID</label><br>
+        <input type="text" id="uid" placeholder="Enter user id">
+
+        <label>Passcode</label><br>
+        <input type="password" id="pwd" placeholder="Enter passcode">
+
+        <button onclick="checkLogin()">Submit</button>
+
+        <p id="msg"></p>
+    </div>
+
+    <script>
+        function checkLogin(){
+            let user = document.getElementById("uid").value;
+            let pass = document.getElementById("pwd").value;
+            let message = document.getElementById("msg");
+
+            if(user === "Admin" && pass === "789"){
+                message.innerHTML = "Access Granted ✔";
+                message.style.color = "green";
+                message.style.fontFamily = "Courier New";
+            }
+            else{
+                message.innerHTML = "Invalid Credentials ✖";
+                message.style.color = "crimson";
+                message.style.fontFamily = "Georgia";
+            }
+        }
+    </script>
+
+</body>
+</html>

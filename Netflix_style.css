@@ -1,0 +1,172 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+
+.header {
+    height: 100vh; 
+    width: 100%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netflix_login_background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 8px solid #232323; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.signin-btn {
+    background-color: #e50914; 
+    color: white;
+    border: none;
+    padding: 7px 17px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+
+.email-signup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email-signup input {
+    padding: 15px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #555;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.email-signup button {
+    padding: 12px 24px;
+    font-size: 1.5rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email-signup button:hover {
+    background-color: #c11119;
+}
+
+
+.trending {
+    padding: 40px 50px;
+}
+
+.trending h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.movie-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.movie-card {
+    position: relative;
+    min-width: 180px;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+}
+
+.movie-card img {
+    width: 180px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+
+.rank {
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    font-size: 6rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px #fff; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    z-index: 10;
+    line-height: 0.8;
+}
+
+
