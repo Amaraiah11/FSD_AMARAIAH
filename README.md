@@ -1,7 +1,7 @@
 # 🌐 Full-Stack Development Suite — Interactive JavaScript & DOM Application Suite
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1E1E2E,4C4F69,7287FD&height=220&section=header&text=Full-Stack%20Development%20Suite&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Modern%20DOM%20Applications%2C%20Interactive%20JavaScript%20%26%20Responsive%20UI&descSize=16&descAlignY=60&descAlign=50" width="100%" alt="Full-Stack Development Suite Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1E2E,50:4C4F69,100:7287FD&customColorList=1E1E2E,4C4F69,7287FD&height=220&section=header&text=Full-Stack%20Development%20Suite&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Modern%20DOM%20Applications%2C%20Interactive%20JavaScript%20%26%20Responsive%20UI&descSize=15&descAlignY=60&descAlign=50" width="100%" alt="Full-Stack Development Suite Banner" />
 </p>
 
 <p align="center">
@@ -193,5 +193,5 @@ Contributions, bug reports, and architectural discussions are welcome!
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1E1E2E,4C4F69,7287FD&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1E2E,50:4C4F69,100:7287FD&customColorList=1E1E2E,4C4F69,7287FD&height=100&section=footer" width="100%" alt="Footer Banner" />
 </p>
